@@ -6,6 +6,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="계시록 암송">
 <link rel="apple-touch-icon" href="icon.png">
+<link rel="icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3b2a6b">
 <title>요한계시록 암송</title>
 <style>
 :root{--fs:21px;--bg:#fbfaf6;--fg:#1d1d1b;--sub:#66625a;--line:#e3dfd4;--card:#fff;--pri:#2f5d50;--pri-fg:#fff;--ok:#1e7a46;--ng:#c0392b;--ngbg:#fdecea;--okbg:#e8f5ec;--hint:#f3efe4;--c0:#ece8dc;--c1:#f6d2cc;--c2:#f7e3b5;--c3:#cfe8d6;--c4:#9fd3b0}
@@ -342,4 +345,5 @@ function finish(){
 }
 home();
 </script>
+<script>if('serviceWorker'in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('sw.js');}</script>
 </body></html>
